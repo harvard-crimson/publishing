@@ -1,0 +1,42 @@
+organization: The Harvard Crimson
+name: High School Journalism
+address: "14 Plympton Street\nCambridge, MA 02138"
+phone: (617) 576-6600
+email: programs@thecrimson.com
+highlighter: pygments
+
+president:
+  name: Derek G. Xiao
+  position: Harvard Crimson President
+  email: president@thecrimson.com
+
+managingeditor:
+  name: Hannah Natanson
+  email: managingeditor@thecrimson.com
+
+coordinators:
+  - name: "Sabrina W. Chok"
+    position: Conference Director
+    email: programs@thecrimson.com
+
+spring:
+  email: programs@thecrimson.com
+  coordinators:
+  - name: "Sabrina W. Chok"
+    position: Conference Director
+    email: programs@thecrimson.com
+
+fall:
+  email: programs@thecrimson.com
+  coordinators:
+  - name: "Sabrina W. Chok"
+    position: Conference Director
+    email: programs@thecrimson.com
+
+
+academy:
+  email: programs@thecrimson.com
+  coordinators:
+  - name: "Sabrina W. Chok"
+    position: Conference Director
+    email: programs@thecrimson.com

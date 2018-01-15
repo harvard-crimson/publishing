@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="description" content="The Harvard Crimson High School Journalism programs offer a the chance for high school students to learn the basics of journalism. Offerings include our Fall and Spring Conferences, Summer Academy, and Awards Program.">
+
+        <title>{{ page.title }} | The Harvard Crimson</title>
+
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Merriweather:300,400,700">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700" />
+        <link rel="stylesheet" type="text/css" href="/css/main.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/scripts.js"></script>
+
+        {% for jsfilename in page.extra_js %}
+            <script type="text/javascript" src="/js/{{ jsfilename }}"></script>
+        {% endfor %}
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-327124-9', 'thecrimson.com');
+          ga('send', 'pageview');
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                {% include header.html %}
+            </div>
+
+            <div id="main">
+                {{ content }}                                  
+            </div>
+
+            <div id="footer">
+                <div class="row">
+                    {% include footer.html %}          
+                </div>
+            </div>        
+        </div>
+    </body>
+</html>
